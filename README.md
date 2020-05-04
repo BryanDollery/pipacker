@@ -1,3 +1,3 @@
-# Hashicorp Packer Image
+# Raspberry Pi builder using Hashicorp Packer
 
-Basic packer installation, with jq, curl, and unzip, on an ubuntu base. Automatically finds the latest packer version and installs that.
+Multistage dockerfile to build packer-builder-arm from source and to download and install packer, then to put them together with a raspbian build file that loads a provisoniing script. There is a Makefile that shows how to use this.
